@@ -139,11 +139,10 @@ public class GenericQueue<T> {
 
         //loop through each Node and add to the string
         for (Node p = head; p != null; p = p.next){
-            //TODO toString in
+            builtString.append(p.value + " ");
             }
 
-
-        return null;
+        return builtString.toString();
         //return the String that was built
 //        return builtString.toString();
     }
@@ -187,5 +186,8 @@ public class GenericQueue<T> {
             //set p to the next node
             p = p.next;
         }
+    }
+    public T peek(){
+        return head.value;
     }
 }

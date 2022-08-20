@@ -95,8 +95,17 @@ public class GenericStack<T> {
             return top.value;
         }
     }
-    public String toString(){
-        //TODO fill this in
-        return null;
+    public String toString() {
+        //create a StringBuilder object to build a string to be returned
+        StringBuilder builtString = new StringBuilder();
+
+        //loop through each Node and add to the string
+        for (GenericStack.Node p = top; p != null; p = p.next){
+            builtString.append(p.value + " ");
+        }
+
+        return builtString.toString();
+        //return the String that was built
+//        return builtString.toString();
     }
 }

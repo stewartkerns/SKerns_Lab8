@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba3f0ab-7c78-40b9-8e48-6dc0040aa218" name="Changes" comment="Added Lab8 class to test GenericQueue and GenericStack">
+    <list default="true" id="cba3f0ab-7c78-40b9-8e48-6dc0040aa218" name="Changes" comment="Finished test class, need to comment it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_Lab8/GenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_Lab8/GenericQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_Lab8/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_Lab8/GenericStack.java" afterDir="false" />
@@ -74,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661021641144</updated>
-      <workItem from="1661021643187" duration="12244000" />
+      <workItem from="1661021643187" duration="17071000" />
     </task>
     <task id="LOCAL-00001" summary="Added Lab8 class to test GenericQueue and GenericStack">
       <created>1661032927201</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661032927201</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished test class, need to comment it">
+      <created>1661038695091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661038695091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Lab8 class to test GenericQueue and GenericStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lab8 class to test GenericQueue and GenericStack" />
+    <MESSAGE value="Finished test class, need to comment it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished test class, need to comment it" />
   </component>
 </project>

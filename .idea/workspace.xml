@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba3f0ab-7c78-40b9-8e48-6dc0040aa218" name="Changes" comment="Finished test class, need to comment it">
+    <list default="true" id="cba3f0ab-7c78-40b9-8e48-6dc0040aa218" name="Changes" comment="Finished the bulk of the commenting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_Lab8/GenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_Lab8/GenericQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_Lab8/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_Lab8/GenericStack.java" afterDir="false" />
@@ -34,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Lab8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SKerns_Lab8.Lab8" />
@@ -74,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661021641144</updated>
-      <workItem from="1661021643187" duration="17071000" />
+      <workItem from="1661021643187" duration="18485000" />
+      <workItem from="1661220765242" duration="7384000" />
     </task>
     <task id="LOCAL-00001" summary="Added Lab8 class to test GenericQueue and GenericStack">
       <created>1661032927201</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661038695091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished the bulk of the commenting">
+      <created>1661063194678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661063194678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Lab8 class to test GenericQueue and GenericStack" />
     <MESSAGE value="Finished test class, need to comment it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished test class, need to comment it" />
+    <MESSAGE value="Finished the bulk of the commenting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the bulk of the commenting" />
   </component>
 </project>

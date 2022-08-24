@@ -1,4 +1,8 @@
-//TODO this part
+/*
+ * Stewart Kerns
+ * CPSC 5002, Seattle University
+ * This is free and unencumbered software released into the public domain.
+ */
 
 package SKerns_Lab8;
 
@@ -40,6 +44,7 @@ public class Lab8 {
 
     /**
      * This method performs tests of the GenericStack class methods
+     *
      * @param stack a GenericStack object to test
      */
     public static void stackTestString(GenericStack stack){
@@ -50,6 +55,7 @@ public class Lab8 {
 
         //Print a line to make it clear which method is being tested
         System.out.println("\n\nTesting output of String stack\n");
+
         //check if the stack is empty
         System.out.println("Is the stack empty? " + stack.empty());
         //print the contents of the stack
@@ -94,12 +100,13 @@ public class Lab8 {
 
         //Print a line to make it clear which method is being tested
         System.out.println("\n\nTesting output of double stack\n");
+
         //check if the stack is empty
         System.out.println("Is the stack empty? " + stack.empty());
         //print the contents of the stack
         System.out.println("Printing stack: " + stack);
 
-        //push 5 strings onto the stack
+        //push 5 doubles onto the stack
         System.out.println("Pushing 5 doubles onto the stack.");
         for (double i = 1.0; i <= FIVE; i++){
             stack.push(i);
@@ -134,6 +141,7 @@ public class Lab8 {
     public static void queueTestDouble(GenericQueue queue) {
         //create a final int for how many times to run through a loop
         final double FIVE = 5.0;
+
         //Print a line to make it clear which method is being tested
         System.out.println("\n\nTesting output of double queue\n");
 

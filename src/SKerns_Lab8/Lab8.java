@@ -21,8 +21,10 @@ public class Lab8 {
      * will be tested and then calls each of the test methods to print out the
      * test results
      * @param args a String array containing the command line arguments
+     * @throws IllegalArgumentException if a stack or queue is empty and
+     * accessed
      */
-    public static void main(String[] args){
+    public static void main(String[] args) throws IllegalArgumentException{
         //create a GenericQueue object with Strings
         GenericQueue<String> stringQueue = new GenericQueue<>();
         //create a GenericQueue object with doubles
@@ -46,8 +48,10 @@ public class Lab8 {
      * This method performs tests of the GenericStack class methods
      *
      * @param stack a GenericStack object to test
+     * @throws IllegalArgumentException if stack is empty and accessed
      */
-    public static void stackTestString(GenericStack stack){
+    public static void stackTestString(GenericStack stack)
+            throws IllegalArgumentException{
         //create a final int for how many times to run through a loop
         final int FIVE = 5;
         //declare a String that will be used for being pushed onto the stack
@@ -94,7 +98,14 @@ public class Lab8 {
         System.out.println("Is the stack empty? " + stack.empty());
     }
 
-    public static void stackTestDouble(GenericStack stack){
+    /**
+     * This method tests the functions of a GenericStack class on doubles
+     *
+     * @param stack the stack to be tested
+     * @throws IllegalArgumentException if stack is empty and accessed
+     */
+    public static void stackTestDouble(GenericStack stack)
+            throws IllegalArgumentException{
         //create a final int for how many times to run through a loop
         final double FIVE = 5.0;
 
@@ -138,7 +149,14 @@ public class Lab8 {
         System.out.println("Is the stack empty? " + stack.empty());
     }
 
-    public static void queueTestDouble(GenericQueue queue) {
+    /**
+     * This method tests the functions of a GenericQueue class on doubles
+     *
+     * @param queue the queue to be tested
+     * @throws IllegalArgumentException if the queue is empty and accessed
+     */
+    public static void queueTestDouble(GenericQueue queue)
+            throws IllegalArgumentException{
         //create a final int for how many times to run through a loop
         final double FIVE = 5.0;
 
@@ -181,7 +199,14 @@ public class Lab8 {
         System.out.println("Is the queue empty? " + queue.empty());
     }
 
-    public static void queueTestString(GenericQueue queue) {
+    /**
+     * This method tests the functions of a GenericQueue class on Strings
+     *
+     * @param queue the queue to be tested
+     * @throws IllegalArgumentException if the queue is empty and accessed
+     */
+    public static void queueTestString(GenericQueue queue)
+            throws IllegalArgumentException{
         //create a final int for how many times to run through a loop
         final double FIVE = 5.0;
         //Create a String that will be enqueued

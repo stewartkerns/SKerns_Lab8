@@ -93,7 +93,7 @@ public class GenericQueue<T> {
      * exception. If it's not empty, it removes the front value and returns it
      *
      * @return T value at the top of the queue
-     * @throws IllegalArgumentException if queue is empty
+     * @throws IllegalArgumentException if queue is empty and accessed
      */
     public T dequeue() throws IllegalArgumentException{
         //if the queue is empty, throw an exception
@@ -145,7 +145,7 @@ public class GenericQueue<T> {
      * This method adds a T object to the end of the queue and sets
      * the front to the rear if the queue is currently empty
      *
-     * @param value a RenderCommand object to add to the end of the queue
+     * @param value a T object to add to the end of the queue
      */
     public void enqueue(T value){
         //if the queue has Nodes already, add the new Node to the end
@@ -183,11 +183,19 @@ public class GenericQueue<T> {
     }
 
     /**
-     * This method peeks at the head value of the generic queue
+     * This method peeks at the head value of the generic queue and checks if
+     * it is empty before. If it's empty, it throws an exception
      *
      * @return return the value at the head
+     * @throws IllegalArgumentException if the queue is empty and accessed
      */
     public T peek(){
+        //if the queue is empty, throw an error code
+        if (empty()){
+            throw new IllegalArgumentException(
+                    "Queue is empty");
+        }
+
         //return the value at the head
         return head.value;
     }

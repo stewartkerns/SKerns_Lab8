@@ -72,8 +72,9 @@ public class GenericStack<T> {
      * returns it
      *
      * @return T value of the top node
+     * @throws IllegalArgumentException if the stack is empty
      */
-    public T pop(){
+    public T pop() throws IllegalArgumentException{
         //if the stack is empty, throw an error code
         if (empty()){
             throw new IllegalArgumentException(
@@ -91,9 +92,11 @@ public class GenericStack<T> {
     /**
      * This method checks that the stack isn't empty and if it is, throws an
      * error message.  If it's not, it returns the top value without popping it
+     *
      * @return T value of the top node
+     * @throws IllegalArgumentException if stack is empty
      */
-    public T peek() {
+    public T peek() throws IllegalArgumentException {
         //if the stack is empty, throw an error code
         if (empty()){
             throw new IllegalArgumentException(
